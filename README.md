@@ -243,19 +243,14 @@ Mở Jupyter Notebook hoặc JupyterLab, sau đó chạy lần lượt các file
 4. chapter6_streaming_prepare.ipynb
 ```
 
-## 14. Ghi chú về dữ liệu
 
-Do dữ liệu có dung lượng lớn, repository có thể không lưu trực tiếp toàn bộ dataset. Người dùng cần tải dữ liệu từ nguồn gốc, sau đó đặt file vào thư mục `data/` hoặc upload trực tiếp lên HDFS theo đường dẫn được cấu hình trong notebook.
-
-Khuyến nghị không commit các file dữ liệu lớn lên GitHub. Các file dữ liệu lớn nên được quản lý bằng HDFS, Google Drive, Kaggle hoặc các hệ thống lưu trữ phù hợp.
-
-## 15. Mục đích sử dụng
+## 14. Mục đích sử dụng
 
 Repository này được xây dựng phục vụ mục đích học tập và nghiên cứu trong khuôn khổ môn học **Big Data**.
 
 Dự án không nhằm triển khai trực tiếp trong môi trường production. Để ứng dụng thực tế, cần bổ sung thêm các thành phần như kiểm thử hệ thống, giám sát mô hình, bảo mật dữ liệu, kiểm soát quyền truy cập và đánh giá chi phí vận hành.
 
-## 16. Kết luận
+## 15. Kết luận
 
 Dự án đã xây dựng một quy trình xử lý dữ liệu lớn cho bài toán phát hiện gian lận giao dịch thương mại điện tử, bao gồm lưu trữ dữ liệu trên HDFS, xử lý bằng Spark, phân tích bằng Spark SQL và huấn luyện mô hình bằng Spark MLlib.
 
